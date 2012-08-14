@@ -25,6 +25,7 @@ public class SecondApp extends Activity implements View.OnClickListener
     public void onClick(View view){
     	updateTime();
     }
+    
     private void updateTime(){
     	btn.setText(new Date().toLocaleString());
     }
